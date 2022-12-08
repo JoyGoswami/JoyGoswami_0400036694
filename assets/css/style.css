@@ -540,26 +540,18 @@ header {
   background-color: #f6f5fc;
   padding: 110px 0;
 }
-.testimonial-inner {
-  display: flex;
-}
 .testimonial-inner .testimonial-img,
 .testimonial-inner .testimonial-content {
   width: 50%;
 }
-.testimonial-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .testimonial-img img {
   width: 55%;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 .testimonial-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 98px 0;
 }
 .testimonial-content .testi-p {
   color: #898798;

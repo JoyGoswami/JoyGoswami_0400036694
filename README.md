@@ -1,6 +1,6 @@
 # Assessment Project for SEIP
 
-This Project is designed using only float.
+This Project is designed using only float. The website is not responsive. (1366 \* 768) resolution recommended for better experience.
 
 ## Author
 

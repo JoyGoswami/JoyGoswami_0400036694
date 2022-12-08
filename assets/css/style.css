@@ -582,8 +582,6 @@ header {
 }
 .get-in-touch .icon {
   color: #8e8aad;
-  display: flex;
-  align-items: center;
 }
 .get-in-touch .icon i {
   color: #6c55f9;
@@ -591,10 +589,11 @@ header {
   width: 40px;
   border: 1px solid #d7d5e9;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
   margin-right: 10px;
+}
+.get-in-touch .icon p {
+  padding-top: 10px;
 }
 .contact-up .cont-p-1 {
   color: #898798;

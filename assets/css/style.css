@@ -738,9 +738,9 @@ header {
   padding: 64px 0;
   background-color: #f6f5fc;
 }
-.work-with-inner {
-  display: flex;
-  justify-content: space-around;
+.work-with-inner img {
+  display: inline-block;
+  margin: 0 45px;
 }
 /* work-with */
 /* about */

@@ -626,6 +626,7 @@ header {
 /* contact */
 /* blog */
 .blog {
+  margin-top: 100px;
 }
 .blog-inner {
 }
@@ -640,8 +641,8 @@ header {
   margin-right: auto;
 }
 .blog-cards {
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
+  clear: both;
 }
 .blog-card {
   width: 23%;
@@ -649,6 +650,7 @@ header {
   padding: 37px 13px 11px 26px;
   box-shadow: 0 2px 6px rgb(100 95 136 / 16%);
   border-radius: 5px;
+  float: left;
 }
 .blog-card.blue {
   background-color: #6c55f9;
@@ -664,11 +666,13 @@ header {
 }
 .blog-card .profile {
   height: 50px;
-  display: flex;
+  overflow: hidden;
+  clear: both;
 }
 .profile .img {
   height: 44px;
   width: 44px;
+  float: left;
 }
 .profile .img img {
   height: 100%;
@@ -678,6 +682,7 @@ header {
 .profile .name {
   margin-left: 10px;
   color: #645f88;
+  float: left;
 }
 .profile .name h4 {
   font-size: 16px;

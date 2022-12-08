@@ -754,10 +754,12 @@ header {
   font-size: 1.25rem;
 }
 .about-inner {
-  display: flex;
+  overflow: hidden;
+  clear: both;
 }
 .about-inner .box {
   width: 25%;
+  float: left;
 }
 .phone .about-logo {
   text-decoration: none;
@@ -804,11 +806,11 @@ header {
   border: 1px solid #d6dbd9;
 }
 .subscribe ul {
-  display: flex;
   margin-top: 25px;
 }
 .subscribe ul li {
   list-style: none;
+  display: inline-block;
 }
 .subscribe ul li a {
   height: 40px;
@@ -817,9 +819,8 @@ header {
   background-color: #f6f5fc;
   color: #898798;
   transition: all 0.2s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  padding: 10px 10px 10px 13px;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -833,10 +834,6 @@ header {
 footer {
   margin: 80px 0 20px 0;
 }
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-}
 .footer-inner > p {
   color: #898798;
 }
@@ -846,5 +843,8 @@ footer {
 }
 .footer-inner a:hover {
   text-decoration: underline;
+}
+.footer-link {
+  margin-left: 564px;
 }
 /* footer */

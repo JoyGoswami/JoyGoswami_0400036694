@@ -446,13 +446,12 @@ header {
   text-align: center;
 }
 .pricing-cards {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
+  margin: 50px auto 0;
+  width: 84%;
 }
 .pricing-card {
-  padding: 22px 7px;
-  width: 27%;
+  padding: 32px 20px;
+  width: 300px;
   border: 1px solid #d7d5e9;
   margin: 0 10px;
   border-radius: 10px;
@@ -464,9 +463,10 @@ header {
 }
 .pricing-card .membership {
   color: #b4b2c5;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 3px;
   margin: 15px 0;
+  padding-top: 16px;
 }
 .pricing-card .p-3 {
   color: #2d2b3a;
@@ -478,10 +478,15 @@ header {
   font-weight: 400;
   color: #2d2b3a;
 }
+.pricing-card .p-3 sup,
+.pricing-card .p-3 sub {
+  font-size: 14px;
+}
 .pricing-card .p-4 {
   color: #898798;
   font-size: 14px;
   margin: 15px 0;
+  padding-bottom: 16px;
 }
 .pricing-card a {
   padding: 8px 24px;
@@ -498,10 +503,23 @@ header {
 }
 .pricing-cards .blue {
   background-color: #6c55f9;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-cards .blue .blue-card-overlay {
+  position: absolute;
+  top: 16px;
+  right: -30px;
+  width: 120px;
+  height: 26px;
+  line-height: 26px;
+  background-color: #0ac7f6;
+  color: #fff;
+  transform: rotate(45deg);
 }
 .pricing-cards .blue .membership {
   color: #fac14d;
-  font-size: 16px;
+  font-size: 20px;
 }
 .blue .p-3,
 .blue .p-3 span {
